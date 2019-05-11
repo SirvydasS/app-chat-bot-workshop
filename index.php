@@ -30,6 +30,7 @@ $fb = new Facebook([
     'app_secret' => $configProvider->getParameter('app_secret'),
 ]);
 
+
 if($message=="Labas")
 {
     $data = [
